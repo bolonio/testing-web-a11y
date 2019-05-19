@@ -1,0 +1,10 @@
+{
+  "urls": [
+    "http://www.techjobsfair.com",
+    {
+      "url": "http://www.techjobsfair.com/vienna/",
+      "timeout": 50000,
+      "screenCapture": "./captures/techjobsfair-vienna.png"
+    }
+  ]
+}

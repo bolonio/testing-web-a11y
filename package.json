@@ -2,6 +2,7 @@
   "name": "testing-web-a11y",
   "version": "0.1.0",
   "private": true,
+  "author": "Adrián Bolonio <bolonio85@gmail.com>",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -27,5 +28,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest-axe": "^3.1.1",
+    "react-axe": "^3.1.0"
   }
 }
