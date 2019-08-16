@@ -1,10 +1,10 @@
 {
   "urls": [
-    "http://www.techjobsfair.com",
+    "https://groups.drupal.org/",
     {
-      "url": "http://www.techjobsfair.com/vienna/",
+      "url": "https://groups.drupal.org/node/535227",
       "timeout": 50000,
-      "screenCapture": "./captures/techjobsfair-vienna.png"
+      "screenCapture": "./captures/a11ytalks.png"
     }
   ]
 }
