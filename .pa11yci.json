@@ -5,6 +5,16 @@
       "url": "https://groups.drupal.org/node/535227",
       "timeout": 50000,
       "screenCapture": "./captures/a11ytalks.png"
+    },
+    {
+      "url": "https://groups.drupal.org/",
+      "timeout": 50000,
+      "actions": [
+        "wait for element .menu-3473 to be visible",
+        "screen capture captures/drupal1.png",
+        "click element .menu-3473",
+        "screen capture captures/drupal2.png"
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./App.css";
-import Image from "./components/image/image";
-import Button from "./components/button/button";
-import FakeButton from "./components/fakeButton/fakeButton";
+import React from "react"
+import ReactDOM from "react-dom"
+import "./App.css"
+import Image from "./components/image/image"
+import Button from "./components/button/button"
+import FakeButton from "./components/fakeButton/fakeButton"
 
 /**
  * Test your React application with the axe-core accessibility testing library.
@@ -13,8 +13,8 @@ import FakeButton from "./components/fakeButton/fakeButton";
  * that will be observed between each component change and the time the analysis starts.
  */
 if (process.env.NODE_ENV !== "production") {
-  var axe = require("react-axe");
-  axe(React, ReactDOM, 1000);
+  var axe = require("react-axe")
+  axe(React, ReactDOM, 1000)
 }
 
 function App() {
@@ -24,6 +24,9 @@ function App() {
       <br />
       <br />
       <button role="button">CLICK ME</button>
+      <br />
+      <br />
+      <button className="nonVisibleButton">CAN YOU SEE ME??</button>
       <br />
       <br />
       <div onClick={() => {}} />
@@ -42,7 +45,7 @@ function App() {
       <a role="myCustomRole">Click me NOW</a>
       <a />
       <br />
-      <br />
+      <div tabIndex={-1} />
       <hr />
       <br />
       <br />
@@ -65,7 +68,7 @@ function App() {
         Email: <input type="text" />
       </label>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -36,3 +36,17 @@ body {
   color: #333;
   cursor: not-allowed;
 }
+
+.nonVisibleButton {
+  background-color: lightcyan;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+}
