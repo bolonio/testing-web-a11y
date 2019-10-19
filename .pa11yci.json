@@ -1,19 +1,19 @@
 {
   "urls": [
-    "https://groups.drupal.org/",
+    "https://jsconf.co/",
     {
-      "url": "https://groups.drupal.org/node/535227",
+      "url": "https://jsconf.co/",
       "timeout": 50000,
-      "screenCapture": "captures-a11ytalks-event.png"
+      "screenCapture": "captures-jsconf.png"
     },
     {
-      "url": "https://groups.drupal.org/",
+      "url": "https://jsconf.co/",
       "timeout": 50000,
       "actions": [
-        "wait for element .menu-3473 to be visible",
-        "screen capture captures-drupal-home.png",
-        "click element .menu-3473",
-        "screen capture captures-drupal-events.png"
+        "wait for element .main-menu__item:last-child a to be visible",
+        "screen capture captures-jsconf-home.png",
+        "click element .main-menu__item:last-child a",
+        "screen capture captures-jsconf-schedule.png"
       ]
     }
   ]
