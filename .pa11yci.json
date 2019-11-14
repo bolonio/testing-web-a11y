@@ -1,19 +1,18 @@
 {
   "urls": [
-    "https://jsconf.co/",
+    "https://stackoverflow.com/",
     {
-      "url": "https://jsconf.co/",
+      "url": "https://stackoverflow.com/",
       "timeout": 50000,
-      "screenCapture": "captures-jsconf.png"
+      "screenCapture": "captures-stackoverflow.png"
     },
     {
-      "url": "https://jsconf.co/",
+      "url": "https://stackoverflow.com/",
       "timeout": 50000,
       "actions": [
-        "wait for element .main-menu__item:last-child a to be visible",
-        "screen capture captures-jsconf-home.png",
-        "click element .main-menu__item:last-child a",
-        "screen capture captures-jsconf-schedule.png"
+        "screen capture captures-stackoverflow-home.png",
+        "navigate to https://stackoverflow.com/questions",
+        "screen capture captures-stackoverflow-questions.png"
       ]
     }
   ]
